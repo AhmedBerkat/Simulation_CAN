@@ -1,0 +1,16 @@
+VERSION "1.0"
+
+BO_ 256 capteur_temperature: 8 Vector__XXX
+ SG_ temperature : 0|8@1+ (1,0) [0|255] "°C" Vector__XXX
+
+BO_ 257 capteur_vitesse: 8 Vector__XXX
+ SG_ vitesse : 0|8@1+ (1,0) [0|255] "km/h" Vector__XXX
+
+BO_ 258 capteur_pression: 8 Vector__XXX
+ SG_ pression : 0|8@1+ (1,0) [0|255] "psi" Vector__XXX
+
+BO_ 512 actionneur_ventilateur: 1 Vector__XXX
+ SG_ ven_active : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 513 actionneur_mturbo: 1 Vector__XXX
+ SG_ turbo_active : 0|1@1+ (1,0) [0|1] "" Vector__XXX
